@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="#" class="header__logo">Travel</a>
+          <nav class="header__nav" id="header__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+              <li class="nav__item"><a href="#destinations" class="nav__link">Destinations</a></li>
+              <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+              <li class="nav__item"><a href="#book" class="nav__link">Book</a></li>
+            </ul>
+          </nav>
+          <button class="burger" id="burger">
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero__content">
+            <h2 class="hero__title">Never stop</h2>
+            <h3 class="hero__subtitle">Exploring the world</h3>
+            <p class="hero__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum vero dolorum ipsum
+              assumenda voluptas molestias accusamus quaerat nobis aliquam dignissimos.
+            </p>
+            <a href="#" class="hero__button">Explore</a>
+          </div>
+        </div>
+
+        <video class="video" src="./assets/video.mp4" muted loop autoplay></video>
+
+        <div class="video__overlay"></div>
+      </section>
+
+      <section class="destinations">
+        <div class="swiper destinations-swiper" id="destinations">
+          <div class="swiper-wrapper destinations-wrapper">
+            <div class="swiper-slide destinations-slide first-slide">
+              <div class="slide__container">
+                <h2 class="slide__title">Beach areas</h2>
+                <p class="slide__text">
+                  Beach areas are popular types of tourist destinations. Beach areas are not all of
+                  the same. In fact, beach areas vary considerably! Islands, resorts and secluded
+                  spots, make up just three different types of beach areas.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide destinations-slide second-slide">
+              <div class="slide__container">
+                <h2 class="slide__title">Natural areas</h2>
+                <p class="slide__text">
+                  Natural areas are popular types of tourist destinations too. Natural areas can be
+                  broken down into different types of natural areas, such as mountains, forests and
+                  countryside areas.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide destinations-slide third-slide">
+              <div class="slide__container">
+                <h2 class="slide__title">Towns and cities</h2>
+                <p class="slide__text">
+                  Towns and cities are popular types of tourist destinations. Towns and cities
+                  attract many different types of tourists. Whether you are travelling for a stag
+                  party, a business trip or a family getaway, there is something to suit everyone-
+                  and that’s what makes towns and cities such popular types of tourist destinations!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide destinations-slide fourth-slide">
+              <div class="slide__container">
+                <h2 class="slide__title">Winter sport areas</h2>
+                <p class="slide__text">
+                  Winter sports areas are one of the major types of tourist destinations. Winter
+                  sports is a popular form of active sports tourism. People travel to destinations
+                  with winter conditions (real or artificial) for a range of winter sport
+                  activities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination destinations-pagination"></div>
+
+          <div class="swiper-button-prev destinations-button-prev"></div>
+          <div class="swiper-button-next destinations-button-next"></div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <nav class="gallery__nav">
+            <ul class="gallery__buttons">
+              <li class="gallery__button" data-filter="all">All</li>
+              <li class="gallery__button" data-filter="diving">Diving</li>
+              <li class="gallery__button" data-filter="nature">Nature</li>
+              <li class="gallery__button" data-filter="health">Health</li>
+            </ul>
+          </nav>
+          <div class="gallery__images">
+            <div class="gallery__image diving">
+              <img src="./assets/gallery/gallery-diving.webp" alt="diving image" />
+            </div>
+            <div class="gallery__image nature">
+              <img src="./assets/gallery/gallery-nature.webp" alt="nature image" />
+            </div>
+            <div class="gallery__image diving">
+              <img src="./assets/gallery/gallery-diving.webp" alt="diving image" />
+            </div>
+            <div class="gallery__image health">
+              <img src="./assets/gallery/gallery-health.webp" alt="health image" />
+            </div>
+            <div class="gallery__image nature">
+              <img src="./assets/gallery/gallery-nature.webp" alt="nature image" />
+            </div>
+            <div class="gallery__image health">
+              <img src="./assets/gallery/gallery-health.webp" alt="health image" />
+            </div>
+            <div class="gallery__image nature">
+              <img src="./assets/gallery/gallery-nature.webp" alt="nature image" />
+            </div>
+            <div class="gallery__image diving">
+              <img src="./assets/gallery/gallery-diving.webp" alt="diving image" />
+            </div>
+            <div class="gallery__image health">
+              <img src="./assets/gallery/gallery-health.webp" alt="health image" />
+            </div>
+            <div class="gallery__image diving">
+              <img src="./assets/gallery/gallery-diving.webp" alt="diving image" />
+            </div>
+            <div class="gallery__image nature">
+              <img src="./assets/gallery/gallery-nature.webp" alt="nature image" />
+            </div>
+            <div class="gallery__image health">
+              <img src="./assets/gallery/gallery-health.webp" alt="health image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="book" id="book">
+        <div class="container">
+          <h2 class="book__title">Book now</h2>
+          <div class="book__wrapper">
+            <form action="#" class="book__form">
+              <div class="form__wrapper">
+                <div>
+                  <label for="name" class="book__label">Enter name</label>
+                  <input type="text" placeholder="Your name" id="book__name" />
+                  <label for="surname" class="book__label">Enter surname</label>
+                  <input type="text" placeholder="Your surname" id="book__surname" />
+                  <label for="book__text" class="book__label">Enter text</label>
+                  <textarea
+                    name="text"
+                    id="book__text"
+                    cols="30"
+                    rows="10"
+                    placeholder="Write something"
+                  ></textarea>
+                </div>
+                <div>
+                  <div class="book__place">
+                    <label for="book__select" class="book__label">Destination</label>
+                    <select name="select" id="book__select">
+                      <option class="book__option" disabled selected>Choose a place</option>
+                      <option class="book__option" value="Grande Antigua">Grande Antigua</option>
+                      <option class="book__option" value="Grenda">Grenda</option>
+                      <option class="book__option" value="Emerald Bay">Emerald Bay</option>
+                      <option class="book__option" value="Bora Bora">Bora Bora</option>
+                      <option class="book__option" value="Key West">Key West</option>
+                      <option class="book__option" value="Maldives">Maldives</option>
+                      <option class="book__option" value="Barbados">Barbados</option>
+                    </select>
+                  </div>
+                  <div class="book__date">
+                    <label for="book__checkin" class="book__label">Check-In</label>
+                    <input type="date" id="book__checkin" />
+                    <label for="book__checkout" class="book__label">Check-Out</label>
+                    <input type="date" id="book__checkout" />
+                  </div>
+                </div>
+              </div>
+              <button class="book__button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__column">
+            <h2 class="footer__title">Travel</h2>
+          </div>
+          <div class="footer__column">
+            <div class="footer__name">Tourism Fiji</div>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji One</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji Two</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji Three</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji Four</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <div class="footer__name">Find Your Happy</div>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji One</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji Two</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji Three</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <div class="footer__name">Need Help?</div>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji One</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Tourism Fiji Two</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
